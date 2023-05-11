@@ -1,0 +1,24 @@
+print("================================================")
+print("Belajar Mngetahui Tipe Data Dalam Syntax Python")
+print("================================================")
+print("")
+print("1. TIPE DATA INTEGER")
+data_integer = 5
+print("   Data : ", data_integer)
+print("   Bertipe : ", type(data_integer))
+print("")
+print("2. TIPE DATA FLOAT")
+data_float = 6.08
+print("   Data : ", data_float)
+print("   Bertipe : ", type(data_float))
+print("")
+print("3. TIPE DATA STRING")
+data_string = "Ikko Cahya Awinata"
+print("   Data : ", data_string)
+print("   Bertipe : ", type(data_string))
+print("")
+print("4. TIPE DATA BOOLEAN (TRUE / FALSE )")
+data_bool = True
+print("   Data : ", data_bool)
+print("   Bertipe : ", type(data_bool))
+print("")
