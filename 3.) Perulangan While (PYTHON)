@@ -1,0 +1,7 @@
+print("===========================================")
+print("BELAJAR PERULANGAN WHILE MENGGUNAKAN PYTHON")
+print("===========================================")
+n = 1
+while n <= 5:
+    print(n, "Aku Sayang Kamu <3")
+    n = n + 1
