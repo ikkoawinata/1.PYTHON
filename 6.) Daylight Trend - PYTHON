@@ -1,0 +1,27 @@
+input("and i can still see it all")
+print()
+x = 20
+while (x > 0):
+    x -= 1
+    print("A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A ")
+print("============================================================================================================")
+input()
+print()
+input("all of you, all of me ")
+print()
+x = 20
+while (x > 0):
+    x -= 1
+    print("A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A ")
+print("============================================================================================================")
+print()
+input()
+input("i once believed love would be ")
+print()
+x = 20
+while (x > 0):
+    x -= 1
+    print("A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A ")
+print("============================================================================================================")
+input()
+print()
