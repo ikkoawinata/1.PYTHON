@@ -1,0 +1,23 @@
+def welcome():
+    print("===========================================================")
+print("===========================================================")
+print("S E L A M A T  D A T A N G  D I  P R O G R A M ")
+print("    MENCARI NILAI TERBESAR DAN TERKECIL")
+
+welcome()
+bil_1 = int(input("Masukkan bilangan 1 : "))
+bil_2 = int(input("Masukkan bilangan 2 : "))
+bil_3 = int(input("Masukkan bilangan 3 : "))
+
+
+if (bil_1 > bil_2):
+        maks = bil_1
+else:
+    maks = bil_2
+    
+if (bil_3 > maks):
+        maks = bil_3
+    
+print("Nilai terbesarnya adalah :", maks)
+
+    
