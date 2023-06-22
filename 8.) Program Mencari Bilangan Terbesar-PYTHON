@@ -2,7 +2,7 @@ def welcome():
     print("===========================================================")
 print("===========================================================")
 print("S E L A M A T  D A T A N G  D I  P R O G R A M ")
-print("    MENCARI NILAI TERBESAR DAN TERKECIL")
+print("              MENCARI NILAI TERBESAR ")
 
 welcome()
 bil_1 = int(input("Masukkan bilangan 1 : "))
