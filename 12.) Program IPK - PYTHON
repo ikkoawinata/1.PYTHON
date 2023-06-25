@@ -1,0 +1,32 @@
+##FUNSGI SELAMAT DATANG
+def welcome():
+    print('================================================================')
+    print('               S E L A M A T   D A T A N G   D I                ')
+    print('                   PERCABANGAN IF ELS PYTHON                    ')
+    print('================================================================')
+welcome()
+
+mhs = input("Masukkan nama mahasiswa :")
+NIM = int(input("Masukkan NIM mahasiswa :"))
+IPK = float(input("Masukkan IPK Mahasiswa : "))
+print()
+
+if (IPK>=4.00):
+    keterangan_lulus = "SEMPURNA"
+    print("Saudara ", mhs, "dengan NIM ", NIM, "SELAMAT ANDA LULUS DENGAN PREDIKAT CUMLAUDE")
+    
+elif (IPK  >=3.49):
+    keterangan_lulus = "SANGAT BAIK"
+    print("Saudara ", mhs, "dengan NIM ", NIM, "Anda lulus dengan predikat baik")
+
+elif (IPK  >=2.99):
+    keterangan_lulus = "BAIK"
+    print("Saudara ", mhs, "dengan NIM ", NIM, "Anda lulus dengan baik")
+
+    
+elif (IPK  >=1.99):
+    keterangan_lulus = "MENGULANG"
+    print("Saudara ", mhs, "dengan NIM ", NIM, "mohon maaf anda dinyatakan tidak lulus")
+    
+    print("=====================================================================================")
+    print("Sekian program dari saya, terima kasih telah menggunakan program ini")
