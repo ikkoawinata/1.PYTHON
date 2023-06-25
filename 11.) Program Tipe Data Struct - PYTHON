@@ -1,0 +1,17 @@
+class DataPribadi:
+    def __init__(self, nama, NIM, JenisKelamin, alamat):
+        self.nama = nama
+        self.NIM = NIM
+        self.JenisKelamin = JenisKelamin
+        self.alamat = alamat
+
+mahasiswa1 = DataPribadi("Ikko Cahya Awinata", 22051204038, "Perempuan", "Jl. Sampoerna no 12")
+
+print("========================================")
+print("Nama          = ",mahasiswa1.nama)
+print("NIM           = ",mahasiswa1.NIM)
+print("Jenis Kelamin = ",mahasiswa1.nama)
+print("Alamat        = ",mahasiswa1.nama)
+print("========================================")
+print()
+print("Itulah contoh program dengan tipe data struct pada Python")
