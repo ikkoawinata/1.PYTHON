@@ -1,0 +1,31 @@
+def welcome():
+    print("===============================================================")
+    print("       S E L A M A T  D A T A N G  D I  P R O G R A M ")
+    print("INPUT DATA DAN MENENTUKAN NILAI DATA TERKECIL DAN TERBESAR")
+    print("===============================================================")
+
+def main():
+    welcome()
+    print("PROGRAM PYTHON BILANGAN TERKECIL DAN TERBESAR")
+    n = int(input("\nMasukan Banyaknya data yang akan dimasukkan : "))
+    print()
+    
+    terkecil = 0
+    terbesar = 0
+    
+    for i in range(1, n+1):
+        bil = float(input("Masukan Bilangan Ke-{} : ".format(i)))
+        
+        if i == 1:
+            terkecil = bil
+            terbesar = bil
+        elif bil < terkecil:
+            terkecil = bil
+        elif bil > terbesar:
+            terbesar = bil
+    
+    print("\nNilai Terkecil adalah : ", terkecil)
+    print("Nilai Terbesar adalah : ", terbesar)
+
+if __name__ == "__main__":
+    main()
