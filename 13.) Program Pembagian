@@ -1,0 +1,17 @@
+def welcome():
+    print('================================================================')
+    print('               S E L A M A T   D A T A N G   D I                ')
+    print('             PERULANGAN WHILE DAN PERCANGAN IF ELSE             ')
+    print('================================================================')
+welcome()
+
+a = int(input("Masukkan bilangan yang akan dibagi :  "))
+b = int(input("Masukkan bilagan pembagi : "))
+if (b == 0):
+    print("Tidak dapat dibagi dengan angka nol maka hasilnya akan tetap")
+else :
+    hasil = a/b
+    print("hasil dari pembagiannya adalah : ", hasil)
+    
+    
+    print("Made by : Ikkoc_awinata")
