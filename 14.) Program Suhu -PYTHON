@@ -1,0 +1,121 @@
+##FUNSGI SELAMAT DATANG
+def welcome():
+    print('================================================================')
+    print('         S E L A M A T   D A T A N G   D I  P R O G R A M       ')
+    print('                          MENGITUNG SUHU                        ')
+    print('================================================================')
+welcome()
+
+def table():
+    print("========================================")
+    print("No.|             Nama Suhu              |")
+    print("========================================")
+    print("1  .| Derajat Celcius    -> Fahrenheit  |")
+    print("2  .| Derajat Fahrenheit -> Celcius     |")
+    print("3  .| Derajat Reamur     -> Fahrenheit  |")
+    print("4  .| Derajat Fahrenheit -> Reamur      |")
+    print("5  .| Derajat Reamur     -> Celcius     |")
+    print("6  .| Derajat Celcius    -> Reamur      |")
+    print("7  .| Derajat Kelvin     -> Celcius     |")
+    print("8  .| Derajat Celcius    -> Kelvin      |")
+    print("9  .| Derajat Kelvin     -> Fahrenheit  |")
+    print("10 .| Derajat Fahrenheit -> Kelvin      |")
+    print("11 .| Derajat Kelvin     -> Reamur      |")
+    print("12 .| Derajat Reamur     -> Kelvin      |")
+    print("========================================")
+table()
+
+
+
+pilihan = int(input("Masukkan Pilihan Anda Sesuai Dengan Yang di tabel : "))
+if pilihan == 1:
+    print("-------- 1.) Anda memilih Celcius -> Fahrenheit --------")
+    c = float(input("Masukkan suhu celcius yang diketahui : "))
+    f = 9/5 * c +(32)
+    print("Rumusnya yaitu : 9/5 * °C + (32) = 9/5 *",c," +(32) = ", f)
+    print("Hasilnya adalah : ", f, "derajat Fahrenheit")
+    
+elif pilihan ==2:
+    print("-------- 2.) Anda memilih Fahrenheit  -> Celcius --------")
+    f = float(input("Masukkan suhu fahrenheit yang diketahui : "))
+    c = 5/9 * (f - (32))
+    print("Rumusnya yaitu : 5/9 * °F - (32) = 5/9 *",c," - (32) = ", c)
+    print("Hasilnya adalah : ", c, "derajat Celcius")
+    
+elif pilihan ==3:
+    print("------ 3.) Anda memilih Reamur -> Fahrenheit --------")
+    r = float(input("Masukkan suhu reamur yang diketahui : "))
+    f = (9/4 * r) + (32)
+    print("Rumusnya yaitu : 9/4 * °R + (32) = 9/4 *",f," + (32) = ",r)
+    print("Hasilnya adalah : ", f, "derajat Fahrenheit")
+    
+elif pilihan ==4:
+    print("------ 4.) Anda memilih Fahrenheit -> Reamur  --------")
+    f = float(input("Masukkan suhu fahrenheit yang diketahui : "))
+    r = 4/9 *(f - 32)
+    print("Rumusnya yaitu : (4/9) * (°R -32) = (4/9) * (",f," - 32) = ",f)
+    print("Hasilnya adalah : ", r, "derajat Reamur")
+    
+elif pilihan ==5:
+    print("------ 5 .) Anda memilih Reamur -> Celcius  --------")
+    r = float(input("Masukkan suhu reamur yang diketahui : "))
+    c = 5/4 * r
+    print("Rumusnya yaitu : 5/4 * °R = 5/4 * " ,r," = ",c)
+    print("Hasilnya adalah : ", c, "derajat Celcius")
+    
+elif pilihan ==6:
+    print("------ 6 .) Anda memilih Celcius -> Reamur  --------")
+    c = float(input("Masukkan suhu celcius yang diketahui : "))
+    r = 4/5 * c
+    print("Rumusnya yaitu : 5/4 * °R = 5/4 * " ,c," = ",r)
+    print("Hasilnya adalah : ", r, "derajat Reamur")
+    
+elif pilihan ==7:
+    print("------ 7 .) Anda memilih Kelvin -> Celcius  --------")
+    k = float(input("Masukkan suhu kelvin yang diketahui : "))
+    c = 273 - k
+    print("Rumusnya yaitu : 273 -  °K = 273 -",k," = ", c) 
+    print("Hasilnya adalah : ", c, "derajat Celcius")
+    
+elif pilihan ==8:
+    print("------ 8 .) Anda memilih Celcius -> Kelvin  --------")
+    c = float(input("Masukkan suhu celcius yang diketahui : "))
+    k = 273 + c
+    print("Rumusnya yaitu : 273 +  °K = 273 +",c," = ", k) 
+    print("Hasilnya adalah : ", k, "derajat Kelvin")
+    
+elif pilihan ==9:
+    print("------ 9 .) Anda memilih Kelvin -> Fahrenheit  --------")
+    k = float(input("Masukkan suhu kelvin yang diketahui : "))
+    f = 9/5 * (k-273)+32
+    print("Rumusnya yaitu : 273 +  °K = 273 +",k," = ", f) 
+    print("Hasilnya adalah : ", f, "derajat Fahrenheit")
+    
+elif pilihan ==10:
+    print("------ 10 .) Anda memilih Fahrenheit -> Kelvin  --------")
+    f = float(input("Masukkan suhu fahrenheit yang diketahui : "))
+    k = 5/9 * (f - 32) + 273
+    print("Rumusnya yaitu : 5/9 * (°F - 32) + 273 = 5/9 * (",f,"- 32 + 273 = ", k )
+    print("Hasilnya adalah : ", k, "derajat Kelvin")
+    
+elif pilihan ==11:
+    print("------ 11 .) Anda memilih Kelvin -> Reamur  --------")
+    k = float(input("Masukkan suhu kelvin yang diketahui : "))
+    r = 4/5 * (k  - 273)
+    print("Rumusnya yaitu : (4/5 * °K) - 273 = (4/5 * ", k,") - 273 = ", r )
+    print("Hasilnya adalah : ", r, "derajat Reamur")
+    
+elif pilihan ==12:
+    print("------ 12 .) Anda memilih Reamur -> Kelvin  --------")
+    r = float(input("Masukkan suhu reamur yang diketahui : "))
+    k = (5/4 * r)+ 273
+    print("Rumusnya yaitu : (5/4 * °R) + 273 = (5/4 * ", r,") + 273 = ", k )
+    print("Hasilnya adalah : ", k, "derajat Kelvin")
+            
+else:
+    print(" Pilihan tidak sesuai. silahkan pilih sesuai tabel ")
+        
+
+print("TERIMA KASIH TELAH MENGGUNAKAN PROGRAM INI")
+print("KLIK CTRL + ALT + N, JIKA INGIN MENGGUNAKAN PROGRAM INI LAGI")
+print("MADE BY IKKOC_AWINATA")
