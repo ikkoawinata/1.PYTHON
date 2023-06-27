@@ -31,7 +31,7 @@ pilihan = int(input("Masukkan Pilihan Anda Sesuai Dengan Yang di tabel : "))
 if pilihan == 1:
     print("-------- 1.) Anda memilih Celcius -> Fahrenheit --------")
     c = float(input("Masukkan suhu celcius yang diketahui : "))
-    f = 9/5 * c +(32)
+    f = (9/5 * c) +32
     print("Rumusnya yaitu : 9/5 * °C + (32) = 9/5 *",c," +(32) = ", f)
     print("Hasilnya adalah : ", f, "derajat Fahrenheit")
     
@@ -67,7 +67,7 @@ elif pilihan ==6:
     print("------ 6 .) Anda memilih Celcius -> Reamur  --------")
     c = float(input("Masukkan suhu celcius yang diketahui : "))
     r = 4/5 * c
-    print("Rumusnya yaitu : 5/4 * °R = 5/4 * " ,c," = ",r)
+    print("Rumusnya yaitu : 4/5 * °C = 4/5 * " ,c," = ",r)
     print("Hasilnya adalah : ", r, "derajat Reamur")
     
 elif pilihan ==7:
@@ -115,7 +115,7 @@ elif pilihan ==12:
 else:
     print(" Pilihan tidak sesuai. silahkan pilih sesuai tabel ")
         
-
+print()
 print("TERIMA KASIH TELAH MENGGUNAKAN PROGRAM INI")
 print("KLIK CTRL + ALT + N, JIKA INGIN MENGGUNAKAN PROGRAM INI LAGI")
 print("MADE BY IKKOC_AWINATA")
