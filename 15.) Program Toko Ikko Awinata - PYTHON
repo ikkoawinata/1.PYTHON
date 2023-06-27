@@ -1,0 +1,102 @@
+def sambutan():
+    print("\n\t\t\t SELAMAT DATANG DI IKKO AWINATA CELL\t\t")
+    print("\t\t\tSilahkan Tentukan Pilihan Anda di Bawah Ini\n")
+
+def tabel():
+    print("==================================================================================================")
+    print("No.||\t\t Nama Jasa\t\t\t ||\t\t  Harga Satuan\t\t\t|| ")
+    print("==================================================================================================")
+    print("1. ||\t Edit Background Foto\t\t\t || Rp.\t\t\t\t\t  10.000||")
+    print("2. ||\t Print hitam putih\t\t\t || Rp.\t\t\t\t\t   1.000||")
+    print("3. ||\t Print Warna fulll\t\t\t || Rp. \t\t\t\t   2.500||")
+    print("4. ||\t cetak foto 4x6 (1 foto get 5 pcs)\t || Rp.\t\t\t\t\t   7.000||")
+    print("5. ||\t cetak foto 3x4 (1 foto get 6 pcs)\t || Rp.\t\t\t\t\t   7.000||")
+    print("6. ||\t cetak foto 2x3 (1 foto get 6 pcs)\t || Rp.\t\t\t\t\t   7.000||")
+    print("7. ||\t Pengetikan / lembar           \t\t || Rp.\t\t\t\t\t   5.000||")
+    print("8. ||\t Laminating / lembar            \t || Rp.\t\t\t\t\t   5.000||")
+    print("9. ||\t Pulsa hp     \t\t\t\t || Rp.\t\t\t\t          +3.000||")
+    print("10.||\t token listrik  \t\t\t || Rp.\t\t\t\t          +3.000||")
+    print("==================================================================================================")
+    print("\t\t\t\t\t Made by Ikko Awinata \t\t\t\t\t ")
+    print("==================================================================================================\n")
+
+def masukan():
+    print("Anda mau apa [1/2/3/4/5/6/7/8/9/10]: ")
+
+def hitung_harga(jasa, jumlah):
+    if jasa == 1:
+        return jumlah * 10000
+    elif jasa == 2:
+        return jumlah * 1000
+    elif jasa == 3:
+        return jumlah * 2500
+    elif jasa == 4 or jasa == 5 or jasa == 6:
+        return jumlah * 7000
+    elif jasa == 7 or jasa == 8:
+        return jumlah * 5000
+    elif jasa == 9 or jasa == 10:
+        return jumlah * 1000 + 3000
+
+def main():
+    sambutan()
+    tabel()
+
+    total = 0
+    j = 'Y'
+    while j == 'Y' or j == 'y':
+        masukan()
+        m = int(input())
+
+        if m >= 1 and m <= 10:
+            if m == 1:
+                print(" 1.)------ ANDA MEMILIH EDIT BACKGROUND FOTO ------ ")
+                print ("mau edit berapa foto ?")
+            elif m == 2:
+                print(" 2.)------ ANDA MEMILIH PRINT HITAM PUTIH ------ ")
+                print("Mau print berapa lembar ? ")
+            elif m == 3:
+                print("3.)------ ANDA MEMILIH PRINT FULL COLOR ------ ")
+                print("Mau print berapa lembar ? ")
+            elif m == 4:
+                print("4.) ------ ANDA MEMILIH CETAK FOTO 4X6 (1 foto get 5 pcs) ------ ")
+                print("Silahkan masukan angka ? ")
+            elif m == 5:
+                print("5.)------ ANDA MEMILIH CETAK FOTO 3X4 (1 foto get 6 pcs) ------ ")
+                print("Silahkan masukan angka ? ")
+            elif m == 6:
+                print("6.) ------ ANDA MEMILIH CETAK FOTO 2X3 (1 foto get 6 pcs) ------ ")
+                print("Silahkan masukan angka ? ")
+            elif m == 7:
+                print("7.) ------ ANDA MEMILIH PENGETIKAN ------ ")
+                print("Mau mengetik berapa lembar ? ")
+            elif m == 8:
+                print("8.)------ ANDA MEMILIH LAMINATING ------ ")
+                print("laminating berapa lembar ? ")
+            elif m == 9:
+                print("9.) ------ ANDA MEMILIH BELI PULSA ------")
+                print("beli pulsa berapa? ")
+            elif m == 10:
+                print("10.) ------ ANDA MEMILIH TOKEN LISTRIK ------")
+                print("beli token berapa ? ")
+            else :
+                print("Pilihan tidak sesuai dengan table")
+
+            ##print("---------------------------------------")
+            jumlah = int(input())
+
+            harga = hitung_harga(m, jumlah)
+            print("Total harganya adalah: {} ribu\n".format(harga))
+
+            total += harga
+        else:
+            print("Pilihan anda tidak sesuai. Silahkan pilih nomor pada tabel yang sesuai dengan pilihan anda\n")
+
+        j = input("Ada yang bisa saya bantu lagi [Y/N]: ")
+
+    print("Jadi total keseluruhan yang harus anda bayar adalah: {} ribu".format(total))
+    print()
+    print("TERIMA KASIH TELAH MENGGUNAKAN PROGRAM INI")
+    print("Made by Ikkoc_awinata")
+
+if __name__ == "__main__":
+    main()
