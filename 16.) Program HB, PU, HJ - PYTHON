@@ -1,0 +1,32 @@
+def welcome():
+    print("===========================================================")
+print("===========================================================")
+print("S E L A M A T  D A T A N G  D I  P R O G R A M ")
+print("HARGA BELI, HARGA JUAL, DAN PENDAPATAN UNTUNG ")
+
+welcome()
+
+def ulang():
+    choice = ""
+    while choice != "tidak" :
+        print()
+        choice = input("Mencoba program lagi? [ya / tidak] ? ")
+        print("Terima kasih telah menggunakan program ini")
+        print ("Made by Ikkoc_awinata")
+        
+HB = int(input("Masukkan Harga Beli Barang : "))
+
+##cara menghitung pendapatan untung
+PU = HB * 30/100
+print("Harga beli = ", HB," x 30% = ", PU )
+print("nilai dari pendapatan untung = ", PU, " rupiah ")
+    
+##cara menghitung harga jual
+HJ = PU + HB
+print("Nilai hasil jual dari penjumlahan PU + HB = ",HJ, "rupiah ")
+
+ulang()
+    
+
+
+    
