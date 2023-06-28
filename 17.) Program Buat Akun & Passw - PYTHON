@@ -1,0 +1,44 @@
+import sys
+
+def welcome():
+    print("===========================================================")
+print("===========================================================")
+print("S E L A M A T  D A T A N G  D I  P R O G R A M ")
+print("             MEMBUAT AKUN DAN PASSWORD  ")
+print()
+welcome()
+
+i = 0
+user = ""
+passw = ""
+login = ""
+x = ""
+y = ""
+z = ""
+
+print("Silahkan Buat Akun Dulu yah")
+user = input("Username : ")
+passw = input("Password : ")
+print("Akun Sudah Dibuat, Silakan Login Untuk Masuk")
+
+while i <= 2:
+    x = input("Username : ")
+    y = input("Password : ")
+
+    if x == user and y == passw:
+        login = "Berhasil"
+        print("YEYY ANDA BERHASIL LOGIN")
+        print("========================================================")
+        print("Sekarang Coba Anda Masukkan Username & Password yang tidak sesuai sebanyak 3 kali")
+    elif x != user or y != passw:
+        print("Username atau Password Anda Salah")
+        i += 1
+
+if login == "Berhasil":
+    print("YEEYY ANDA TELAH BERHASIL LOGIN")
+else:
+    print()
+    print("Anda Telah 3x Salah Username & Password")
+    print("Maaf Akun Anda Kami Blokir Sementara")
+    print("Untuk Lebih lanjut, Hubungi Nomor Dia. Jika Tidak Ada Respon Lebih Baik Mundur Saja.")
+print("Sekian Dan Terima Kasih")
