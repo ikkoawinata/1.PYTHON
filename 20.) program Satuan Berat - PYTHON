@@ -1,0 +1,363 @@
+def sambutan():
+    print ("================================================================================")
+    print ("       S E L A G A T   D A T A N G   D I   P R O G R A G " )
+    print ("                  CONVERT SATUAN BERAT " )
+
+
+def table():
+    print ("================================================================================")
+    print ("NO |                 SATUAN PANJANG               ")
+    print ("================================================================================")
+    print ("1.  | KG (KiloGram)       ->   HG (HektoGram)                                 |")
+    print ("2.  | KG (KiloGram)       ->   DAG (DekaGram)                                 |")
+    print ("3.  | KG (KiloGram)       ->   G (Gram)                                       |")
+    print ("4.  | KG (KiloGram)       ->   DG (DesiGram)                                  |")
+    print ("5.  | KG (KiloGram)       ->   CG (CentiGram)                                 |")
+    print ("6.  | KG (KiloGram)       ->   GG (GiliGram)                                  |")
+    print ("7.  | HG (HektoGram)      ->   KG (KiloGram)                                  |")
+    print ("8.  | HG (HektoGram)      ->   DAG (DekaGram)                                 |")
+    print ("9.  | HG (HektoGram)      ->   G (Gram)                                       |")
+    print ("10. | HG (HektoGram)      ->   DG (DesiGram)                                  |")
+    print ("11. | HG (HektoGram)      ->   CG (CentiGram)                                 |")
+    print ("12. | HG (HektoGram)      ->   GG (GiliGram)                                  |")
+    print ("13. | DAG (DekaGram)      ->   KG (KiloGram)                                  |")
+    print ("14. | DAG (DekaGram)      ->   HG (HektoGram)                                 |")
+    print ("15. | DAG (DekaGram)      ->   G (Gram)                                       |")
+    print ("16. | DAG (DekaGram)      ->   DG (DesiGram)                                  |")
+    print ("17. | DAG (DekaGram)      ->   CG (CentiGram)                                 |")
+    print ("18. | DAG (DekaGram)      ->   GG (GiliGram)                                  |")
+    print ("19. | G (Gram)            ->   KG (KiloGram)                                  |")
+    print ("20. | G (Gram)            ->   HG (HektoGram)                                 |")
+    print ("21. | G (Gram)            ->   DAG (DekaGram)                                 |")
+    print ("22. | G (Gram)            ->   DG (DesiGram)                                  |")
+    print ("23. | G (Gram)            ->   CG (CentiGram)                                 |")
+    print ("24. | G (Gram)            ->   GG (Gilieter)                                   |")
+    print ("25. | DG (DesiGram)       ->   KG (KiloGram)                                  |")
+    print ("26. | DG (DesiGram)       ->   HG (HektoGram)                                 |")
+    print ("27. | DG (DesiGram)       ->   DAG (DekaGram)                                 |")
+    print ("28. | DG (DesiGram)       ->   G (Gram)                                       |")
+    print ("29. | DG (DesiGram)       ->   CG (CentiGram)                                 |")
+    print ("30. | DG (DesiGram)       ->   GG (GiliGram)                                  |")
+    print ("31. | CG (CentiGram)      ->   KG (KiloGram)                                  |")
+    print ("32. | CG (CentiGram)      ->   HG (HektoGram)                                 |")
+    print ("33. | CG (CentiGram)      ->   DAG (DekaGram)                                 |")
+    print ("34. | CG (CentiGram)      ->   G (Gram)                                       |")
+    print ("35. | CG (CentiGram)      ->   DG (DesiGram)                                  |")
+    print ("36. | CG (CentiGram)      ->   GG (GiliGram)                                  |")
+    print ("37. | GG (GiliGram)       ->   KG (KiloGram)                                  |")
+    print ("38. | GG (GiliGram)       ->   HG (HektoGram)                                 |")
+    print ("39. | GG (GiliGram)       ->   DAG (DekaGram)                                 |")
+    print ("40. | GG (GiliGram)       ->   G (Gram)                                       |")
+    print ("41. | GG (GiliGram)       ->   DG (DesiGram)                                  |")
+    print ("42. | GG (GiliGram)       ->   CG (CentiGram)                                 |")
+    print ("================================================================================")
+
+sambutan()
+table()
+
+choice =""
+
+pil = int(input("Silahkan pilih sesuai pada tabel :"))
+if pil == 1:
+    print(" ------ 1.) KG -> HG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 10
+    print( user, " * 10 = ", Rumus, " HG ")
+    
+    
+elif pil == 2:
+    print  (" ------ 2.) KG -> DAG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 100 ;
+    print( user, " * 100 = ", Rumus, " DAG ")
+    
+    
+elif pil == 3:
+    print  (" ------ 3.) KG -> G --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 1000 ;
+    print( user, " * 1000 = ", Rumus, " G ")
+    
+    
+elif pil == 4:
+    print  (" ------ 4.) KG -> DG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 10000 ;
+    print( user, " * 10000 = ", Rumus, " DG ")
+    
+    
+elif pil == 5:
+    print  (" ------ 5.) KG -> CG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 100000 ;
+    print( user, " * 100000 = ", Rumus, " CG ")
+elif pil == 6:
+    print  (" ------ 6.) KG -> GG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 1000000 ;
+    print( user, " * 100000 = ", Rumus, " GG ")
+    
+    
+elif pil == 7:
+    print  (" ------ 7.) HG -> KG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 10 ;
+    print( user, " / 10 = ", Rumus, " KG ")
+    
+    
+elif pil == 8:
+    print  (" ------ 8.) HG -> DAG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 10 ;
+    print( user, " / 10 = ", Rumus, " DAG ")
+    
+    
+elif pil == 9:
+    print  (" ------ 9.) HG -> G --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 100 ;
+    print( user, " * 100 = ", Rumus, " G ")
+    
+    
+elif pil == 10:
+    print  (" ------ 10.) HG -> DG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 1000 ;
+    print( user, " * 1000 = ", Rumus, " DG ")
+    
+    
+elif pil == 11:
+    print  (" ------ 11.) HG -> CG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 10000 ;
+    print( user, " * 10000 = ", Rumus, " CG ")
+    
+    
+elif pil == 12:
+    print  (" ------ 12.) HG -> GG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 100000 ;
+    print( user, " * 100000 = ", Rumus, " GG ")
+    
+    
+elif pil == 13:
+    print  (" ------ 13.)DAG -> KG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 100 ;
+    print( user, " / 100 = ", Rumus, " KG ")
+    
+    
+elif pil == 14:
+    print  (" ------ 14.)DAG -> HG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 10 ;
+    print( user, " / 10 = ", Rumus, " HG ")
+    
+    
+elif pil == 15:
+    print  (" ------ 15.)DAG -> G --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 10 ;
+    print( user, " * 10 = ", Rumus, " G ")
+    
+    
+elif pil == 16:
+    print  (" ------ 16.)DAG -> DG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 100 ;
+    print( user, " * 100 = ", Rumus, " DG ")
+    
+    
+elif pil == 17:
+    print  (" ------ 17.)DAG -> CG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 1000 ;
+    print( user, " * 1000 = ", Rumus, " CG ")
+    
+    
+elif pil == 18:
+    print  (" ------ 18.)DAG -> GG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 10000 ;
+    print( user, " * 10000 = ", Rumus, " GG ")
+    
+    
+elif pil == 19:
+    print  (" ------ 19.)G -> KG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 1000 ;
+    print( user, " / 1000 = ", Rumus, " kG ")
+    
+    
+elif pil == 20:
+    print  (" ------ 20.)G -> HG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 100 ;
+    print( user, " / 100 = ", Rumus, " HG ")
+    
+    
+elif pil == 21:
+    print  (" ------ 21.)G -> DAG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 10 ;
+    print( user, " / 10 = ", Rumus, " DAG ")
+    
+    
+elif pil == 22:
+    print  (" ------ 22.)G -> DG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 10 ;
+    print( user, " * 10 = ", Rumus, " DG ")
+    
+    
+elif pil == 23:
+    print  (" ------ 23.) G -> CG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 100 ;
+    print( user, " * 100 = ", Rumus, " CG ")
+    
+    
+elif pil == 24:
+    print  (" ------ 24.) G -> GG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 1000 ;
+    print( user, " * 1000 = ", Rumus, " GG ")
+    
+    
+elif pil == 25:
+    print  (" ------ 25.) DG -> KG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 10000 ;
+    print( user, " * 10000 = ", Rumus, " KG ")
+    
+    
+elif pil == 26:
+    print  (" ------ 26.) DG -> HG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 1000 ;
+    print( user, " / 1000 = ", Rumus, " HG ")
+    
+    
+elif pil == 27:
+    print  (" ------ 27.) DG -> DAG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 100 ;
+    print( user, " / 100 = ", Rumus, " DAG ")
+    
+    
+elif pil == 28:
+    print  (" ------ 28.) DG -> G --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 10 ;
+    print( user, " / 10 = ", Rumus, " G ")
+    
+    
+elif pil == 29:
+    print  (" ------ 29.) DG -> CG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 10 ;
+    print( user, " * 10 = ", Rumus, " G ")
+    
+    
+elif pil == 30:
+    print  (" ------ 30.) DG -> GG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 100 ;
+    print( user, " * 100 = ", Rumus, " GG ")
+    
+    
+elif pil == 31:
+    print  (" ------ 31.) CG -> KG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 100000 ;
+    print( user, " / 100000 = ", Rumus, " KG ")
+    
+    
+elif pil == 32:
+    print  (" ------ 32.) CG -> HG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 10000 ;
+    print( user, " / 10000 = ", Rumus, " HG ")
+    
+    
+elif pil == 33:
+    print  (" ------ 33.) CG -> DAG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 1000 ;
+    print( user, " / 1000 = ", Rumus, " DAG ")
+    
+    
+elif pil == 34:
+    print  (" ------ 34.) CG -> G --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 100 ;
+    print( user, " / 100 = ", Rumus, " G ")
+    
+    
+elif pil == 35:
+    print  (" ------ 35.) CG -> DG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 10 ;
+    print( user, " / 10 = ", Rumus, " DG ")
+    
+    
+elif pil == 36:
+    print  (" ------ 36.) CG -> GG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user * 10 ;
+    print( user, " * 10 = ", Rumus, " GG ")
+    
+    
+elif pil == 37:
+    print  (" ------ 37.) CG -> KG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 1000000 ;
+    print( user, " / 1000000 = ", Rumus, " KG ")
+    
+    
+elif pil == 38:
+    print  (" ------ 38.) GG -> HG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 100000 ;
+    print( user, " / 100000 = ", Rumus, " HG ")
+    
+    
+elif pil == 39:
+    print  (" ------ 39.) GG -> DAG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 10000 ;
+    print( user, " / 10000 = ", Rumus, " DAG ")
+    
+    
+elif pil == 40:
+    print  (" ------ 40.) GG -> G --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 1000 ;
+    print( user, " / 1000 = ", Rumus, " G ")
+    
+    
+elif pil == 41:
+    print  (" ------ 41.) GG -> DG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 100 ;
+    print( user, " / 100 = ", Rumus, " DG ")
+    
+    
+elif pil == 42:
+    print  (" ------ 42.) GG -> CG --------")
+    user = int(input("Masukkan angka : "))
+    Rumus = user / 10 ;
+    print( user, " / 10 = ", Rumus, " CG ")
+    
+else :
+    print ( "Pilihan tidak sesuai dengan tabel " )
+    print ( "Silahkan Masukkan pilihan anda sesuai dengan tabel " )
+    
+    
+while choice != 'tidak':
+    print()
+    choice = input("Mencoba program lagi? [ya / tidak] ? ")
+    print("Terima kasih telah menggunakan program ini")
+    print ("Made by Ikkoc_awinata")
+       
+        
