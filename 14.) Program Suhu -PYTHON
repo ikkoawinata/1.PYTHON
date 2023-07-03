@@ -88,7 +88,7 @@ elif pilihan ==9:
     print("------ 9 .) Anda memilih Kelvin -> Fahrenheit  --------")
     k = float(input("Masukkan suhu kelvin yang diketahui : "))
     f = 9/5 * (k-273)+32
-    print("Rumusnya yaitu : 273 +  °K = 273 +",k," = ", f) 
+    print("Rumusnya yaitu : 9/5 * (k-273) + 32 = 9/5 ", k, " - 273 + 32 = ", f)
     print("Hasilnya adalah : ", f, "derajat Fahrenheit")
     
 elif pilihan ==10:
