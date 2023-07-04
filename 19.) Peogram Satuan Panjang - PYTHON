@@ -59,162 +59,164 @@ choice =""
 
 pil = int(input("Silahkan pilih sesuai pada tabel :"))
 if pil == 1:
-    print(" ------ 1.) KG -> HG --------")
+    print(" ------ 1.) KM -> HM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 10
-    print( user, " * 10 = ", rumus, " HG ")
+    print( user, " * 10 = ", rumus, " Hm ")
     
     
 elif pil == 2:
-    print  (" ------ 2.) KG -> DAG --------")
+    print  (" ------ 2.) KM -> DAM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 100 ;
-    print( user, " * 100 = ", rumus, " DAG ")
+    print( user, " * 100 = ", rumus, " DAM ")
     
     
 elif pil == 3:
-    print  (" ------ 3.) KG -> G --------")
+    print  (" ------ 3.) KM -> M --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 1000 ;
-    print( user, " * 1000 = ", rumus, " G ")
+    print( user, " * 1000 = ", rumus, " M ")
     
     
 elif pil == 4:
-    print  (" ------ 4.) KG -> DG --------")
+    print  (" ------ 4.) KM -> DM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 10000 ;
-    print( user, " * 10000 = ", rumus, " DG ")
+    print( user, " * 10000 = ", rumus, " DM ")
     
     
 elif pil == 5:
-    print  (" ------ 5.) KG -> CG --------")
+    print  (" ------ 5.) KM -> CM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 100000 ;
-    print( user, " * 100000 = ", rumus, " CG ")
+    print( user, " * 100000 = ", rumus, " CM ")
+
+
 elif pil == 6:
-    print  (" ------ 6.) KG -> MG --------")
+    print  (" ------ 6.) KM -> MM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 1000000 ;
-    print( user, " * 100000 = ", rumus, " MG ")
+    print( user, " * 100000 = ", rumus, " MM ")
     
     
 elif pil == 7:
-    print  (" ------ 7.) HG -> KG --------")
+    print  (" ------ 7.) HM -> KM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 10 ;
-    print( user, " / 10 = ", rumus, " KG ")
+    print( user, " / 10 = ", rumus, " KM ")
     
     
 elif pil == 8:
-    print  (" ------ 8.) HG -> DAG --------")
+    print  (" ------ 8.) HM -> DAM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 10 ;
-    print( user, " / 10 = ", rumus, " DAG ")
+    print( user, " / 10 = ", rumus, " DAM ")
     
     
 elif pil == 9:
-    print  (" ------ 9.) HG -> G --------")
+    print  (" ------ 9.) HM -> M --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 100 ;
-    print( user, " * 100 = ", rumus, " G ")
+    print( user, " * 100 = ", rumus, " M ")
     
     
 elif pil == 10:
-    print  (" ------ 10.) HG -> DG --------")
+    print  (" ------ 10.) HM -> DM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 1000 ;
-    print( user, " * 1000 = ", rumus, " DG ")
+    print( user, " * 1000 = ", rumus, " DM ")
     
     
 elif pil == 11:
-    print  (" ------ 11.) HG -> CG --------")
+    print  (" ------ 11.) HM -> CM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 10000 ;
-    print( user, " * 10000 = ", rumus, " CG ")
+    print( user, " * 10000 = ", rumus, " CM ")
     
     
 elif pil == 12:
-    print  (" ------ 12.) HG -> MG --------")
+    print  (" ------ 12.) HM -> MM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 100000 ;
-    print( user, " * 100000 = ", rumus, " MG ")
+    print( user, " * 100000 = ", rumus, " MM ")
     
     
 elif pil == 13:
-    print  (" ------ 13.)DAG -> KG --------")
+    print  (" ------ 13.)DAM -> KM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 100 ;
-    print( user, " / 100 = ", rumus, " KG ")
+    print( user, " / 100 = ", rumus, " KM ")
     
     
 elif pil == 14:
-    print  (" ------ 14.)DAG -> HG --------")
+    print  (" ------ 14.)DAM -> HM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 10 ;
-    print( user, " / 10 = ", rumus, " HG ")
+    print( user, " / 10 = ", rumus, " HM ")
     
     
 elif pil == 15:
-    print  (" ------ 15.)DAG -> G --------")
+    print  (" ------ 15.)DAM -> M --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 10 ;
-    print( user, " * 10 = ", rumus, " G ")
+    print( user, " * 10 = ", rumus, " M ")
     
     
 elif pil == 16:
-    print  (" ------ 16.)DAG -> DG --------")
+    print  (" ------ 16.)DAM -> DM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 100 ;
-    print( user, " * 100 = ", rumus, " DG ")
+    print( user, " * 100 = ", rumus, " DM ")
     
     
 elif pil == 17:
-    print  (" ------ 17.)DAG -> CG --------")
+    print  (" ------ 17.)DAM -> CM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 1000 ;
-    print( user, " * 1000 = ", rumus, " CG ")
+    print( user, " * 1000 = ", rumus, " CM ")
     
     
 elif pil == 18:
-    print  (" ------ 18.)DAG -> MG --------")
+    print  (" ------ 18.)DAM -> MM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 10000 ;
-    print( user, " * 10000 = ", rumus, " MG ")
+    print( user, " * 10000 = ", rumus, " MM ")
     
     
 elif pil == 19:
-    print  (" ------ 19.)G -> KG --------")
+    print  (" ------ 19.)M -> KM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 1000 ;
-    print( user, " / 1000 = ", rumus, " kG ")
+    print( user, " / 1000 = ", rumus, " KM ")
     
     
 elif pil == 20:
-    print  (" ------ 20.)G -> HG --------")
+    print  (" ------ 20.)M -> HM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 100 ;
-    print( user, " / 100 = ", rumus, " HG ")
+    print( user, " / 100 = ", rumus, " HM ")
     
     
 elif pil == 21:
-    print  (" ------ 21.)G -> DAG --------")
+    print  (" ------ 21.)M -> DAM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 10 ;
-    print( user, " / 10 = ", rumus, " DAG ")
+    print( user, " / 10 = ", rumus, " DAM ")
     
     
 elif pil == 22:
-    print  (" ------ 22.)G -> DG --------")
+    print  (" ------ 22.)M -> DM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 10 ;
-    print( user, " * 10 = ", rumus, " DG ")
+    print( user, " * 10 = ", rumus, " DM ")
     
     
 elif pil == 23:
-    print  (" ------ 23.) G -> CG --------")
+    print  (" ------ 23.) M -> CM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 100 ;
-    print( user, " * 100 = ", rumus, " CG ")
+    print( user, " * 100 = ", rumus, " CM ")
     
     
 elif pil == 24:
@@ -225,129 +227,129 @@ elif pil == 24:
     
     
 elif pil == 25:
-    print  (" ------ 25.) DG -> KG --------")
+    print  (" ------ 25.) DM -> KM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 10000 ;
-    print( user, " * 10000 = ", rumus, " KG ")
+    print( user, " * 10000 = ", rumus, " KM ")
     
     
 elif pil == 26:
-    print  (" ------ 26.) DG -> HG --------")
+    print  (" ------ 26.) DM -> HM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 1000 ;
-    print( user, " / 1000 = ", rumus, " HG ")
+    print( user, " / 1000 = ", rumus, " HM ")
     
     
 elif pil == 27:
-    print  (" ------ 27.) DG -> DAG --------")
+    print  (" ------ 27.) DM -> DAM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 100 ;
-    print( user, " / 100 = ", rumus, " DAG ")
+    print( user, " / 100 = ", rumus, " DAM ")
     
     
 elif pil == 28:
-    print  (" ------ 28.) DG -> G --------")
+    print  (" ------ 28.) DM -> M --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 10 ;
-    print( user, " / 10 = ", rumus, " G ")
+    print( user, " / 10 = ", rumus, " M ")
     
     
 elif pil == 29:
-    print  (" ------ 29.) DG -> CG --------")
+    print  (" ------ 29.) DM -> CM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 10 ;
-    print( user, " * 10 = ", rumus, " G ")
+    print( user, " * 10 = ", rumus, " M ")
     
     
 elif pil == 30:
-    print  (" ------ 30.) DG -> MG --------")
+    print  (" ------ 30.) DM -> MM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 100 ;
-    print( user, " * 100 = ", rumus, " MG ")
+    print( user, " * 100 = ", rumus, " MM ")
     
     
 elif pil == 31:
-    print  (" ------ 31.) CG -> KG --------")
+    print  (" ------ 31.) CM -> KM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 100000 ;
-    print( user, " / 100000 = ", rumus, " KG ")
+    print( user, " / 100000 = ", rumus, " KM ")
     
     
 elif pil == 32:
-    print  (" ------ 32.) CG -> HG --------")
+    print  (" ------ 32.) CM -> HM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 10000 ;
-    print( user, " / 10000 = ", rumus, " HG ")
+    print( user, " / 10000 = ", rumus, " HM ")
     
     
 elif pil == 33:
-    print  (" ------ 33.) CG -> DAG --------")
+    print  (" ------ 33.) CM -> DAM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 1000 ;
-    print( user, " / 1000 = ", rumus, " DAG ")
+    print( user, " / 1000 = ", rumus, " DAM ")
     
     
 elif pil == 34:
-    print  (" ------ 34.) CG -> G --------")
+    print  (" ------ 34.) CM -> M --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 100 ;
-    print( user, " / 100 = ", rumus, " G ")
+    print( user, " / 100 = ", rumus, " M ")
     
     
 elif pil == 35:
-    print  (" ------ 35.) CG -> DG --------")
+    print  (" ------ 35.) CM -> DM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 10 ;
-    print( user, " / 10 = ", rumus, " DG ")
+    print( user, " / 10 = ", rumus, " DM ")
     
     
 elif pil == 36:
-    print  (" ------ 36.) CG -> MG --------")
+    print  (" ------ 36.) CM -> MM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 10 ;
-    print( user, " * 10 = ", rumus, " MG ")
+    print( user, " * 10 = ", rumus, " MM ")
     
     
 elif pil == 37:
-    print  (" ------ 37.) CG -> KG --------")
+    print  (" ------ 37.) CM -> KM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 1000000 ;
-    print( user, " / 1000000 = ", rumus, " KG ")
+    print( user, " / 1000000 = ", rumus, " KM ")
     
     
 elif pil == 38:
-    print  (" ------ 38.) MG -> HG --------")
+    print  (" ------ 38.) MM -> HM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 100000 ;
-    print( user, " / 100000 = ", rumus, " HG ")
+    print( user, " / 100000 = ", rumus, " HM ")
     
     
 elif pil == 39:
-    print  (" ------ 39.) MG -> DAG --------")
+    print  (" ------ 39.) MM -> DAM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 10000 ;
-    print( user, " / 10000 = ", rumus, " DAG ")
+    print( user, " / 10000 = ", rumus, " DAM ")
     
     
 elif pil == 40:
-    print  (" ------ 40.) MG -> G --------")
+    print  (" ------ 40.) MM  -> M --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 1000 ;
-    print( user, " / 1000 = ", rumus, " G ")
+    print( user, " / 1000 = ", rumus, " GM")
     
     
 elif pil == 41:
-    print  (" ------ 41.) MG -> DG --------")
+    print  (" ------ 41.) MM -> DM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 100 ;
-    print( user, " / 100 = ", rumus, " DG ")
+    print( user, " / 100 = ", rumus, " DM ")
     
     
 elif pil == 42:
-    print  (" ------ 42.) MG -> CG --------")
+    print  (" ------ 42.) MM -> CM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 10 ;
-    print( user, " / 10 = ", rumus, " CG ")
+    print( user, " / 10 = ", rumus, " CM ")
     
 else :
     print ( "Pilihan tidak sesuai dengan tabel " )
