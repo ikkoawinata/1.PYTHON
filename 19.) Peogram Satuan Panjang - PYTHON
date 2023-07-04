@@ -110,8 +110,8 @@ elif pil == 7:
 elif pil == 8:
     print  (" ------ 8.) HM -> DAM --------")
     user = int(input("Masukkan angka : "))
-    rumus = user / 10 ;
-    print( user, " / 10 = ", rumus, " DAM ")
+    rumus = user * 10 ;
+    print( user, " * 10 = ", rumus, " DAM ")
     
     
 elif pil == 9:
