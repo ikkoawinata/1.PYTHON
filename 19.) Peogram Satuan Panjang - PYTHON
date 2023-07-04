@@ -220,10 +220,10 @@ elif pil == 23:
     
     
 elif pil == 24:
-    print  (" ------ 24.) G -> MG --------")
+    print  (" ------ 24.) M -> MM --------")
     user = int(input("Masukkan angka : "))
     rumus = user * 1000 ;
-    print( user, " * 1000 = ", rumus, " MG ")
+    print( user, " * 1000 = ", rumus, " MM ")
     
     
 elif pil == 25:
