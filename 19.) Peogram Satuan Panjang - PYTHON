@@ -311,7 +311,7 @@ elif pil == 36:
     
     
 elif pil == 37:
-    print  (" ------ 37.) CM -> KM --------")
+    print  (" ------ 37.) MM -> KM --------")
     user = int(input("Masukkan angka : "))
     rumus = user / 1000000 ;
     print( user, " / 1000000 = ", rumus, " KM ")
