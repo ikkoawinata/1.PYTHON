@@ -338,15 +338,15 @@ while j == 'Y' or j == 'y':
             
             
         elif pilihan == 24:
-             print("\n----- 24.) MENGHITUNG VOLUME LIMAS SEGITIGA -----")
-             a = int(input("Masukkan alas limas segitiga : "))
-             T = int(input("Masukkan Tinggi limas segitiga :"))
-             t = int(input("Masukkan tinggi alas limas : "))
-             rumus24 = 1/3*a*T*t
-             print("Rumusnya yaitu : 1/3 *a*T*t = 1/3", a, "*", T,"*", t, "=", rumus24)
-             print("maka volume limas segitiga adalah : ",rumus24, "cm")
-             print("===============================================================")
-             print()
+            print("\n----- 24.) MENGHITUNG VOLUME LIMAS SEGITIGA -----")
+            a = int(input("Masukkan alas limas segitiga : "))
+            T = int(input("Masukkan Tinggi limas segitiga :"))
+            t = int(input("Masukkan tinggi alas limas : "))
+            rumus24 = 1/3*a*T*t
+            print("Rumusnya yaitu : 1/3 *a*T*t = 1/3", a, "*", T,"*", t, "=", rumus24)
+            print("maka volume limas segitiga adalah : ",rumus24, "cm")
+            print("===============================================================")
+            print()
              
              
         elif pilihan == 25:
@@ -415,52 +415,52 @@ while j == 'Y' or j == 'y':
              
         elif pilihan == 29:
             print("\n----- 29.) MENGHITUNG LUAS SELIMUT KERUCUT-----")
-            R = int(input("Masukkan Jari-Jari kerucut :"))
-            s = int(input("Masukkan sisi kerucut : "))
+            jari = int(input("Masukkan Jari-Jari kerucut :"))
+            sisi = int(input("Masukkan sisi kerucut : "))
             Phi = 22/7
             phi = 3.14
-            rumus29a = Phi*R*s
-            rumus29b = phi*R*s
-            print("Rumus A yaitu : Luas = phi * r * sisi =  22/7 *",R,"*",s,"=", rumus29a)
-            print("Rumus B yaitu : Luas = phi * r * sisi =  3.14 *",R,"*",s,"=", rumus29b)
-            print("Hasilnya luas permukaan tabung (phi =22/7 ) : ", rumus29a,"cm")
-            print("Hasilnya luas permukaan tabung (phi =3.14 ) : ", rumus29b,"cm")
+            pytagoras = (jari**2) + (sisi**2)
+            print("hasil sisi segitiga yang hasilnya berbentuk akar : ", pytagoras);
+            sqrt = (pytagoras**0.5);
+            print(" akar dari ",pytagoras," adalah = ", sqrt);
+            rumus1 = 22/7*jari*sqrt;
+            rumus2 = 3.14*jari*sqrt;
+            print("Rumus A yaitu : Luas = phi * r * sisi =  22/7 *",jari,"*",sisi,"=", rumus1)
+            print("Rumus B yaitu : Luas = phi * r * sisi =  3.14 *",jari,"*",sisi,"=", rumus2)
+            print("Hasilnya luas permukaan tabung (phi =22/7 ) : ", rumus1,"cm")
+            print("Hasilnya luas permukaan tabung (phi =3.14 ) : ", rumus2,"cm")
             print("===============================================================")
             print()
             
           
         elif pilihan == 30:
             print("\n----- 30.) MENGHITUNG LUAS PERMUKAAN KERUCUT-----")
-            R = int(input("Masukkan Jari-Jari kerucut :"))
-            s = int(input("Masukkan sisi kerucut : "))
-            Phi = 22/7
-            phi = 3.14
-            rumus30a = (Phi*R*s) + (Phi*R**2)
-            rumus30b = (phi*R*s) + (phi*R**2)
-            print("Rumus A yaitu : Luas = (phi * r * sisi) + (phi * r pangkat 2 = ( 22/7 *",R,"*",s,") + (22/7 *",R**2,")=", rumus30a)
-            print("Rumus B yaitu : Luas = (phi * r * sisi) + (phi * r pangkat 2 = ( 3.14 *",R,"*",s,") + (3.14 *",R**2,")=", rumus30b)
-            print("Hasilnya luas permukaan tabung (phi =22/7 ) : ", rumus30a,"cm")
-            print("Hasilnya luas permukaan tabung (phi =3.14 ) : ", rumus30b,"cm")
+            jari = int(input("Masukkan Jari-Jari kerucut :"))
+            sisi = int(input("Masukkan sisi kerucut : "))
+            rumus1 = (22/7 * jari *(jari + sisi));
+            rumus2 = (3.14 * jari *(jari + sisi));
+            print("Rumus A yaitu : Luas = (phi * r * sisi) + (phi * r pangkat 2 = ( 22/7 *",jari,"*",sisi,") + (22/7 *",jari**2,")=", rumus1)
+            print("Rumus B yaitu : Luas = (phi * r * sisi) + (phi * r pangkat 2 = ( 3.14 *",jari,"*",sisi,") + (3.14 *",jari**2,")=", rumus2)
+            print("Hasilnya luas permukaan tabung (phi = 22/7 ) : ", rumus1,"cm")
+            print("Hasilnya luas permukaan tabung (phi = 3.14 ) : ", rumus2,"cm")
             print("===============================================================")
             print()
             
             
         elif pilihan == 31:
             print("\n----- 31.) MENGHITUNG VOLUME KERUCUT-----")
-            R = int(input("Masukkan Jari-Jari kerucut :"))
-            T = int(input("Masukkan tinggi kerucut : "))
-            Phi = 22/7
-            phi = 3.14
-            rumus31a = 1/3*Phi*R**2*T
-            rumus31b = 1/3*phi*R**2*T
-            print("Rumus A yaitu : Luas = 1/3 * phi * r pangkat 2 * tinggi = 1/3 * 22/7 *",R**2,"*",T,"=", rumus31a) 
-            print("Rumus B yaitu : Luas = 1/3 * phi * r pangkat 2 * tinggi = 1/3 * 3.14 *",R**2,"*",T,"=", rumus31b) 
-            print("Hasilnya luas permukaan tabung (phi =22/7 ) : ", rumus31a,"cm")
-            print("Hasilnya luas permukaan tabung (phi =3.14 ) : ", rumus31b,"cm")
+            jari = int(input("Masukkan Jari-Jari kerucut :"))
+            tinggi = int(input("Masukkan tinggi kerucut : "))
+            rumus1 = 1/3 * 22/7 *(jari**2) * tinggi;
+            rumus2 = 1/3 * 3.14 * (jari**2) * tinggi;
+            print("Rumus A yaitu : Luas = 1/3 * phi * r pangkat 2 * tinggi = 1/3 * 22/7 *",jari**2,"*",tinggi,"=", rumus1) 
+            print("Rumus B yaitu : Luas = 1/3 * phi * r pangkat 2 * tinggi = 1/3 * 3.14 *",jari**2,"*",tinggi,"=", rumus1) 
+            print("Hasilnya luas permukaan tabung (phi =22/7 ) : ", rumus1,"cm")
+            print("Hasilnya luas permukaan tabung (phi =3.14 ) : ", rumus2,"cm")
             print("===============================================================")
             print()
             
-            ##lanjut
+            
         elif pilihan == 32:
             print("\n----- 32.) MENGHITUNG LUAS BOLA-----")
             R = int(input("Masukkan Jari-Jari atau diameter bola :"))
@@ -509,4 +509,3 @@ while j == 'Y' or j == 'y':
         print("||\t|| \\\\    || \\\\   ||     ||")
         print("||\t||  \\\\   ||  \\\\  ||     ||")
         print("||\t||   \\\\  ||   \\\\ ||_____||")
-     
