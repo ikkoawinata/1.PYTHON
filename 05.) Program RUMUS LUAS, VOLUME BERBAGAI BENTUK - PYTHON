@@ -295,8 +295,9 @@ while j == 'Y' or j == 'y':
             print("\n----- 21.) MENGHITUNG VOLUME LIMAS SEGIEMPAT -----") 
             lalas = int(input("Masukkan luas alas limas segiempat : "))
             TINGGI = int(input("Masukkan tinggi limas segiempat :"))
-            rumus21 =  1/3*lalas*TINGGI
-            print("Rumusnya yaitu : Volume = 1/3 * Luas Alas * Tinggi = 1/3 * ",lalas, "*", TINGGI, "=" ,rumus21)
+            LALAS = lalas * lalas
+            rumus21 =  1/3*LALAS*TINGGI
+            print("Rumusnya yaitu : Volume = 1/3 * Luas Alas * Tinggi = 1/3 * ",LALAS, "*", TINGGI, "=" ,rumus21)
             print(" Hasilnya adalah ", rumus21, "cm")
             print("===============================================================")
             print()
