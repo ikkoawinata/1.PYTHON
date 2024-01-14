@@ -1,0 +1,152 @@
+Berikut adalah contoh implementasi pendeklarasian variabel, pemanggilan suatu elemen, dan perubahan nilai elemen pada tipe data list dalam pemrograman Python.
+================================================    A    ==========================================================
+# deklarasi variabel list
+numbers = [23, 43, 15, 34]
+ 
+# cara mengakses elemen dalam variabel list
+numbers[0]    # 23
+numbers[1]    # 43
+numbers[2]    # 15
+numbers[3]    # 34
+ 
+# cara mengubah nilai elemen dalam variabel list
+numbers[2] = 51
+numbers[2]   # 51
+
+
+
+
+
+
+
+
+================================================    B    ==========================================================
+# deklarasi variabel list numbers
+numbers = [1, 2, 3]
+ 
+# menambahkan elemen di indeks ke-4
+numbers.insert(4, 5)    # [1, 2, 3, 5]
+ 
+# mengubah elemen di indeks ke-4
+numbers[3] = 4    # [1, 2, 3, 4]
+ 
+# menghapus elemen di indeks ke-2
+numbers.pop(2)    # [1, 2, 4]
+
+
+
+
+
+
+================================================    C    ==========================================================
+Berikut adalah contoh penerapan penggunaan list apabila diberi nilai dengan tipe data yang beragam.
+# deklarasi variabel list
+myList = [1, “Rumah”, 4.5, True, ["Kamar mandi", "Kamar tidur"]]
+ 
+# cara mengakses elemen dalam variabel list
+myList[0]   # 1
+myList[1]   # "Rumah"
+myList[3]   # True
+myList[4]   # ["Kamar mandi", "Kamar tidur"]
+ 
+# cara mengakses elemen dalam sublist
+myList[4][0]   # "Kamar mandi"
+myList[4][1]   # "Kamar tidur"
+
+
+
+
+
+
+
+================================================    D     ==========================================================
+# deklarasi variabel tuple
+numbers = (23, 43, 15, 34)
+ 
+# cara mengakses elemen dalam variabel tuple
+numbers[0]    # 23
+numbers[1]    # 43
+numbers[2]    # 15
+numbers[3]    # 34
+
+
+
+
+
+
+
+================================================    E     ==========================================================
+Perbedaan                                         ||                                     List                                            ||                                  	Tuple
+- Mutable/Immutable                               || - Bersifat mutable atau nilai dapat berubah.                                        || - Bersifat immutable atau nilai tidak dapat berubah.
+- Karakter pengapit elemen                        || - Diapit dengan tanda kurung siku ‘[ ]’.                                            || - Diapit dengan tanda kurung ‘( )’.
+- Operasi umum yang digunakan                     || - Operasi penambahan, pengurangan, atau pengubahan elemen data.                     || - Hanya mengakses elemen saja.
+- Cara mengakses elemen                           || - Panggil berdasarkan indeks.                                                       || - Panggil berdasarkan indeks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================    F     ==========================================================
+Berikut adalah contoh implementasi pendeklarasian variabel pada tipe data set dalam pemrograman Python.
+# deklarasi variabel set
+numbers = {23, 43, 15, 34}
+ 
+numbers   # {23, 43, 15, 34}
+
+
+
+
+
+
+
+
+
+
+
+================================================    G     ==========================================================
+Tipe data set memiliki kegunaan lain, yaitu dapat melakukan operasi union (gabungan), intersection (irisan), dan difference (perbedaan). Hal ini selaras dengan sifatnya yang mirip dengan himpunan matematika yang mampu melakukan operasi-operasi tersebut.
+# deklarasi variabel set a dan b
+a = {1, 2, 3}
+b = {2, 3, 4}
+ 
+# operasi gabungan
+a.union(b)    # {1, 2, 3, 4}
+ 
+# operasi irisan
+a.intersection(b)    # {2, 3}
+ 
+# operasi perbedaan
+a.symmetric_difference(b)    # {1, 4}
+
+
+
+
+
+
+
+
+
+
+================================================    H     ==========================================================
+Berikut adalah contoh implementasi pendeklarasian variabel, pemanggilan suatu elemen, dan perubahan nilai elemen pada tipe data dictionary dalam bahasa pemrograman Python.
+# deklarasi variabel dictionary
+propertyDetail = {"numFloors": 1, "propertyType": "Rumah", "hasTerrace": True, "hasGarage": False}
+ 
+# cara mengakses elemen dalam variabel dictionary
+propertyDetail["numFloors"]       # 1
+propertyDetail["propertyType"]    # Rumah
+propertyDetail["hasTerrace"]      # True
+propertyDetail["hasGarage"]       # False
+ 
+# cara mengubah nilai elemen dalam variabel dictionary
+propertyDetail["hasTerrace"] = False
+ 
+propertyDetail["hasTerrace"]      # False
